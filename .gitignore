@@ -64,8 +64,8 @@ venv/
 *~
 
 # ---- 本地发布工具（不进仓库）----
-push-to-github.bat
-push-now.bat
+# 推送脚本是给本机用的，别人 clone 下来用不到。
+push-*.bat
 start-ide.bat
 
 # ---- 自检 / 临时 ----
